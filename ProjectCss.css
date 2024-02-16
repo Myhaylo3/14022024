@@ -14,24 +14,49 @@ body{
     line-height: 39px; /* 185.714% */
     letter-spacing: -0.657px;
 }
+
+
+
 .general-one{
     background: #19191B;
     width: 99.9vw;
-    height: 99.5vh;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15vh;
 }
 .Enver{
-    color: #FFF;
-    font-family: Montserrat, serif;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 140%;
-    margin-left:5% ;
+    margin-left: 9%;
 }
-.Text{
+.link_elem{
+    text-decoration: none;
+    color: white;
+}
+
+.link_box{
     color: rgba(255, 255, 255, 0.70);
     font-size: 18px;
     line-height: normal;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.blue{
+    color: #5454D4;
+    text-decoration: none;
+}
+.header-two{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top:10vh;
 }
 .button{
     width: 157px;
@@ -41,12 +66,11 @@ body{
     border: 1px solid #FFF;
     backdrop-filter: blur(1px);
     text-align: center;
-margin-left: 90%;
 }
 .Build {
     color: #FFF;
     font-family: Lato, serif;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 84px;
     width: 582px;
     margin-left: 10%;
@@ -54,6 +78,8 @@ margin-left: 90%;
 .enver{
     width: 536px;
     margin-left: 10%;
+    font-size: 20px;
+
 }
 .button-two{
     width: 204px;
@@ -65,11 +91,21 @@ margin-left: 90%;
 }
 .image2{
     position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
+    top:0;
     right: 10%;
     border: none;
+    width: 35vw;
+   height: 65vh;
+    margin-top: 10vh;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -80,25 +116,26 @@ margin-left: 90%;
     display: flex;
     flex-direction: column;
 }
+
 .Why{
     color: #FFF;
-    font-family: Lato, serif;
-    font-size: 40px;
+    font-size: 60px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 84px;
-    margin-left: 10%;
+    line-height: 8vh;
+    margin-left: 18.5%;
+    font-weight: normal;
+
 }
 .Watch-text {
     margin-left: auto;
-    margin-right: 10%;
-    color: rgba(255, 255, 255, 0.70);
-    font-family: Lato, serif;
+    margin-right: 20%;
     font-size: 21px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 39px; /* 185.714% */
-    letter-spacing: -0.657px;
+}
+.text-box{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 .Watch-text p {
     text-align: inherit;
@@ -109,17 +146,30 @@ margin-left: 90%;
     height: 670px;
     flex-shrink: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
 .general-three{
-    width: 80vw;
+    width: 60vw;
     height: 100vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
+}
+.h2{
 
 }
+
+
 .list__pictures{
     display: flex;
     flex-wrap: wrap;
@@ -182,5 +232,126 @@ margin-left: 90%;
     text-align: center;
     font-size: 20px;
     line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+
+
+
+
+
+
+.general-four{
+    background: #19191B;
+    width: 99.9vw;
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.our{
+    margin-left: 40vh;
+    color: #FFF;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 200px;
+}
+.img1{
+    border-radius: 14px;
+    background: #1E1E20;
+    flex-shrink: 0;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.background-one{
+    border-radius: 14px;
+    background: #1E1E20;
+    flex-shrink: 0;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+.general-five{
+    height: 60vh;
+    width: 99.9vw;
+    background: rgba(30, 30, 32, 0.50);
+}
+h4{
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20vh;
+}
+.box2{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 60vh;
+    width: 99.9vw;
+}
+.button3{
+    border-radius: 5px;
+    background: #5454D4;
+    width: 201px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.general-six{
+    height: 20vh;
+    width: 99.9vw;
+}
+.box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: 99.9vw;
+}
+.text{
+    width: 285px;
+    height: 38px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 38px;
     letter-spacing: -0.5px;
 }
