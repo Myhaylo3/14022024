@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34a7abc7-2347-494c-9a65-b518ee0d23b7" name="Changes" comment="project12345666">
+    <list default="true" id="34a7abc7-2347-494c-9a65-b518ee0d23b7" name="Changes" comment="project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCss.css" afterDir="false" />
     </list>
@@ -77,7 +77,7 @@
       <workItem from="1708087594687" duration="15268000" />
       <workItem from="1708187813227" duration="7832000" />
       <workItem from="1708209020191" duration="22000" />
-      <workItem from="1708251043333" duration="1405000" />
+      <workItem from="1708251043333" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="project123">
       <option name="closed" value="true" />
@@ -103,7 +103,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708208897675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project18.02">
+      <option name="closed" value="true" />
+      <created>1708252505591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708252505591</updated>
+    </task>
+    <task id="LOCAL-00005" summary="project">
+      <option name="closed" value="true" />
+      <created>1708252622356</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708252622356</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +129,8 @@
     <MESSAGE value="project123" />
     <MESSAGE value="project.rtbh" />
     <MESSAGE value="project12345666" />
-    <option name="LAST_COMMIT_MESSAGE" value="project12345666" />
+    <MESSAGE value="project18.02" />
+    <MESSAGE value="project" />
+    <option name="LAST_COMMIT_MESSAGE" value="project" />
   </component>
 </project>

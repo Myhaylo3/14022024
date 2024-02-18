@@ -31,7 +31,7 @@ body{
     height: 15vh;
 }
 .Enver{
-    margin-left: 9%;
+    margin-left: 11.5%;
 }
 .link_elem{
     text-decoration: none;
@@ -59,14 +59,10 @@ body{
     margin-top:10vh;
 }
 .button{
-
-    width: 156.891px;
-    height: 44.139px;
     flex-shrink: 0;
     border-radius: 5px;
     background: #5454D4;
-    margin-left: 10%;
-
+    margin-right: 11%;
 }
 .button1{
 
@@ -115,7 +111,7 @@ body{
 .image2{
     position: absolute;
     top:0;
-    right: 10%;
+    right: 15%;
     border: none;
     width: 35vw;
     height: 65vh;
