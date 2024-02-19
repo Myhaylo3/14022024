@@ -1,0 +1,76 @@
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .general-one,
+    .general-two,
+    .general-three,
+    .general-four,
+    .general-five,
+    .general-six {
+        width: 100%;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .Enver {
+        margin-left: 0;
+    }
+
+    .link_box {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .link_elem {
+        margin-right: 20px;
+    }
+
+    .button {
+        margin: 10px 0;
+    }
+
+    .box1,
+    .image2,
+    .image3,
+    .list__pictures,
+    .general-four .box,
+    .box2,
+    .box3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-two,
+    .general-five h4,
+    .general-four h3 {
+        text-align: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .Build,
+    .enver,
+    .button-two,
+    .button5,
+    .button3,
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pictures,
+    .background-one,
+    .img1,
+    .box {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
